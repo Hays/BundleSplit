@@ -1,0 +1,1 @@
+__d(function(e,r,n,t,o){'use strict';var c={getJSHierarchy:function(e){var n=window.__REACT_DEVTOOLS_GLOBAL_HOOK__._renderers,t=n[Object.keys(n)[0]].getInspectorDataForViewTag(e).hierarchy.map(function(e){return e.name}).join(' -> ');console.error('StackOverflowException rendering JSComponent: '+t),r(o[0]).JSDevSupport.setResult(t,null)}};n.exports=c},97,[20]);
